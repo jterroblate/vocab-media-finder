@@ -1,0 +1,10 @@
+{
+  "id":"synthetic-demo",
+  "title":"离线合成故事：仅用于词族匹配演示",
+  "url":"",
+  "duration_seconds":40,
+  "synthetic":true,
+  "source_identity_confirmed":false,
+  "english_audio_confirmed":false,
+  "subtitle_available":false
+}

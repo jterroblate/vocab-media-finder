@@ -1,0 +1,18 @@
+{
+  "verified_on":"2026-11-13",
+  "notice":"Discovery seeds, not a copied transcript corpus or a promise of platform access. Provider labels are not inferred CEFR certifications.",
+  "sources":[
+    {"name":"British Council Starting Out","url":"https://learnenglish.britishcouncil.org/free-resources/general/video-series/starting-out","example":"https://learnenglish.britishcouncil.org/free-resources/general/video-series/starting-out/episode-01-they-meet","format":"continuous everyday story","provider_level":"A1/A2","bands":["easy"],"evidence":"episode Transcript section; exclude exercises and comments"},
+    {"name":"British Council A1 Speaking","url":"https://learnenglish.britishcouncil.org/free-resources/speaking/a1","format":"everyday scene and guided speaking","provider_level":"A1","bands":["easy"],"evidence":"match the exact dialogue/video segment, not an entire multi-part lesson"},
+    {"name":"British Council LearnEnglish Kids","url":"https://learnenglishkids.britishcouncil.org/listen-watch/short-stories","format":"animated short stories","provider_level":"publisher internal levels; not automatically CEFR","bands":["starter","easy"],"evidence":"official story text/PDF matched to exact animation; consider age fit"},
+    {"name":"VOA Let's Learn English 1","url":"https://learningenglish.voanews.com/p/5644.html","example":"https://learningenglish.voanews.com/a/lets-learn-english-lesson-one/3111026.html","format":"beginner life story","provider_level":"beginners","bands":["easy"],"evidence":"Conversation text must correspond to the chosen video, not all lesson modules"},
+    {"name":"British Council Word on the Street","url":"https://learnenglish.britishcouncil.org/free-resources/general/video-series/word-street","format":"live-action everyday story and culture","provider_level":"B1/B2","bands":["standard","advanced"],"evidence":"complete Transcript for exact scene"},
+    {"name":"ELLLO","url":"https://elllo.org/","example":"https://elllo.org/video/M126/T150-BadHabit.htm","format":"short everyday interviews","provider_level":"retain exact page label when present","bands":["easy","standard"],"evidence":"Script matched to embedded video; short clips may need adjusted duration"},
+    {"name":"TED and TED-Ed","url":"https://www.ted.com/","format":"talks and science animations","provider_level":"no assumed CEFR","bands":["standard","advanced"],"evidence":"official complete transcript; suitability must be reviewed, not the default beginner source"}
+  ],
+  "domestic_discovery":[
+    {"platform":"bilibili","query":"情景主题 初级英语 英文字幕","access":"public web discovery or available in-app search; confirm bvid+cid/page"},
+    {"platform":"douyin","query":"情景主题 慢速英语 情景 视频","access":"use available public search; login/captcha may prevent verification; no assumed full-site caption API"},
+    {"platform":"xiaohongshu","query":"情景主题 英语 日常对话 视频","access":"confirm actual video note and resolved content link; text notes are not videos"}
+  ]
+}

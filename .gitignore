@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.env.*
+cache/
+.cache/
+demo-output/
+dist/
+*.zip
+*.sqlite3
+capabilities.local.json
+vocab-video.config.json
+private/
+student-data/

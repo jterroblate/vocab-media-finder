@@ -1,0 +1,7 @@
+{
+  "display_name": "词汇偶遇视频",
+  "display_name_en": "Vocabulary Video Finder",
+  "description_zh": "根据词表、词族、难度和可观看平台寻找英语视频，以完整字幕核验覆盖和频次。无需额外字幕服务 Key。",
+  "description_en": "Find English videos by vocabulary family, learning difficulty and accessible platform, then verify coverage and frequency against complete captions. No subtitle-service API key is required.",
+  "author": "Contributors"
+}
