@@ -17,5 +17,7 @@ jobs:
       - run: python -B -m unittest discover -s scripts -p 'test_*.py'
       - run: python -B -m unittest discover -s tools -p 'test_*.py'
       - run: python -B -m unittest discover -s companions/music-preferences-import -p 'test_*.py'
+      - run: python -B -m unittest discover -s unified -p 'test_*.py'
       - run: python scripts/demo.py --output demo-output
       - run: python companions/music-preferences-import/demo.py --output music-demo-output
+      - run: python unified/run.py demo --output unified-demo-output

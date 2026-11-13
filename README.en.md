@@ -1,4 +1,38 @@
-# vocab-video-finder v3
+# Vocab Media Finder
+
+[中文](README.md) · [MIT](LICENSE) · Python 3.10+ · No additional subtitle or music service key
+
+Give a tool-enabled agent a word list or article. Find comprehensible videos and optional English songs that naturally reuse the vocabulary, with actual forms, frequencies and evidence checks.
+
+**One skill. One install. One entry point.** Video and music are internal modules, with no separate legacy installation required.
+
+## Try the unified beta
+
+[WorkBuddy single ZIP](https://github.com/jterroblate/vocab-video-finder/releases/download/unified-v4.0.0-beta.1/vocab-media-finder-4.0.0-beta.1-workbuddy.zip) · [Codex](https://github.com/jterroblate/vocab-video-finder/releases/download/unified-v4.0.0-beta.1/vocab-media-finder-4.0.0-beta.1-codex.zip) · [DeepSeek Harness](https://github.com/jterroblate/vocab-video-finder/releases/download/unified-v4.0.0-beta.1/vocab-media-finder-4.0.0-beta.1-deepseek.zip)
+
+[All release assets](https://github.com/jterroblate/vocab-video-finder/releases/tag/unified-v4.0.0-beta.1) · [Unified guide](unified/README.en.md)
+
+Install from a release ZIP. To run from source, keep the full repository; copying only `unified/` omits its internal engine sources. The repository-root SKILL.md remains the legacy video v3 entry point.
+
+```sh
+# From a source checkout:
+python3 unified/run.py demo --output demo-output
+```
+
+Inside a downloaded unified package, run `python3 run.py demo --output demo-output`. The same four authored targets pass through both media engines and produce one combined Markdown/JSON report, without network access or account data.
+
+[Preview the synthetic report](unified/examples/demo-preview.md) before installing.
+
+The host performs real searches and checks; `plan` is not a completed search. NetEase macOS native reading has been tested. QQ public lookup has been tested, while native QQ reading remains experimental. Windows local music reading is unsupported. Native WorkBuddy/DeepSeek execution is not yet verified; package and cross-directory tests are provided. Public assets exclude personal data, client databases, credentials and full lyrics.
+
+## Legacy components
+
+Legacy video v3 and music v0.3 releases remain available. The unified beta is recommended for new trials.
+
+<details>
+<summary>Legacy video documentation and standalone components</summary>
+
+### vocab-video-finder v3
 
 [中文](README.md) · Python 3.10+ · MIT · No extra caption-service key
 
@@ -67,3 +101,5 @@ Codex automatic invocation remains supported. [Bootstrap instructions](adapters/
 Douyin/Xiaohongshu access or captions may be unavailable in a given tool. Short links must resolve to a specific item; text notes are not videos. Access limits and unavailable transcripts are reported rather than bypassed.
 
 No media downloads, automatic sending, student data, full third-party transcripts or credentials are included. See [contribution guidance](CONTRIBUTING.md). If this saves you time, a Star helps others find it; contributions to easier sources and better verification are welcome.
+
+</details>

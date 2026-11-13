@@ -1,0 +1,6 @@
+interface:
+  display_name: "词汇偶遇：视频＋音乐"
+  short_description: "一个入口按词表寻找可理解的视频和英文歌曲，核验词族、实际词形与频次"
+  default_prompt: "使用 $vocab-media-finder，按这份词表找我能理解的视频，并在音乐偏好可用时补充英文歌曲，说明实际词形、频次与核验状态。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,3 @@
+This unified skill combines the project's MIT-licensed video and music code under one entry point.
+Only authored synthetic media text is included for the offline demonstration; no third-party full captions, lyrics, audio or user datasets are distributed.
+Packaged engine sources and hashes are recorded in the package manifest.

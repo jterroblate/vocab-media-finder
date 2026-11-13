@@ -18,6 +18,13 @@ profile.json
 trial-summary.json
 providers.json
 music-demo-output/
+unified-demo-output/
+plan-output/
+demo-report.json
+demo-report.md
+families.json
+words.json
+plan.json
 trial-output/
 outputs/
 capabilities.local.json
