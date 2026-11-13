@@ -1,0 +1,7 @@
+{
+  "display_name": "词汇音乐偏好组件",
+  "display_name_en": "Vocabulary Music Companion",
+  "description_zh": "自动发现网易云与 QQ 音乐可用缓存，按偏好寻找含目标词族的英文歌曲；个人数据保留在工作区，发送独立处理。",
+  "description_en": "Finds English songs matching target word families from supported macOS NetEase Cloud Music or QQ Music preference data, while keeping personal data and delivery outside the skill.",
+  "author": "jterroblate"
+}

@@ -49,6 +49,12 @@ python scripts/video_pipeline.py discover --families families.json \
 
 An agent executes the resulting search plan using its actual host tools, reads complete transcripts, reviews context and selects videos. The CLI alone is not a fully automated live-web retriever. See [the workflow](references/workflow.md).
 
+## Optional music companion
+
+The experimental [music-preferences-import](companions/music-preferences-import/README.en.md) companion uses supported local macOS data from NetEase Cloud Music or QQ Music to find English songs containing target word families. It uses the same matching rules as the video skill, with an independent release and no sender or scheduler.
+
+Download standalone music packages or a paired bundle from [music-v0.3.0](https://github.com/jterroblate/vocab-video-finder/releases/tag/music-v0.3.0). NetEase native reading has been tested; QQ native reading remains experimental. See the companion README for provider limits and a safe offline recording demo.
+
 ## Agent hosts
 
 ```sh

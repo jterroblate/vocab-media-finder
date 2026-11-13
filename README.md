@@ -76,6 +76,12 @@ python tools/prepare_package.py --host deepseek --output ../my-project/.dsh/skil
 
 [Codex](adapters/codex.md)保留自动调用；[WorkBuddy](adapters/workbuddy.md)、[DeepSeek Harness](adapters/deepseek.md)有独立接入说明及[可复制自适配提示词](adapters/bootstrap.md)。已测试包结构和文档契约，尚未在本机运行WorkBuddy/DSH原生环境。模型账户/Key属于宿主既有配置；本项目不增加字幕服务Key要求。
 
+## 可选音乐组件
+
+[music-preferences-import](companions/music-preferences-import/README.md) 可在 macOS 上自动检查网易云音乐或 QQ 音乐的可用偏好，按同一套词族规则筛选英文歌曲，不先要求用户找链接、ID 或额外 API Key。它与视频 skill 独立、可组合使用；网易云本地链路已实测，QQ 本地读取仍为实验适配。
+
+在 [music-v0.3.0 发布页](https://github.com/jterroblate/vocab-video-finder/releases/tag/music-v0.3.0)选择独立音乐包或视频＋音乐组合包。音乐包自带匹配核心，附离线合成演示，适合在另一台电脑试用和录屏；发送组件保持独立。
+
 ## 贡献与边界
 
 结果同时说明文稿、转载对应、访问和播放检查状态。没有证据不凑数，不下载媒体，不自动发消息。开源包仅含通用代码与合成示例，不含学生资料、完整第三方稿件、缓存或凭据。

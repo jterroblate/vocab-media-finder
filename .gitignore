@@ -10,6 +10,16 @@ demo-output/
 dist/
 *.zip
 *.sqlite3
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+profile.json
+trial-summary.json
+providers.json
+music-demo-output/
+trial-output/
+outputs/
 capabilities.local.json
 vocab-video.config.json
 private/

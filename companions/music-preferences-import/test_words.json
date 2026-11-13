@@ -1,0 +1,22 @@
+[
+  {"word":"love","forms":["loves","loved","loving"],"related":[{"word":"lovely","confirmed":true},{"word":"loveless","confirmed":true}]},
+  {"word":"know","forms":["knows","knew","known","knowing"]},
+  {"word":"feel","forms":["feels","felt","feeling"],"related":[{"word":"feelings","confirmed":true}]},
+  {"word":"dream","forms":["dreams","dreamed","dreamt","dreaming"],"related":[{"word":"dreamer","forms":["dreamers"],"confirmed":true}]},
+  {"word":"remember","forms":["remembers","remembered","remembering"]},
+  {"word":"believe","forms":["believes","believed","believing"],"related":[{"word":"belief","forms":["beliefs"],"confirmed":true}]},
+  {"word":"change","forms":["changes","changed","changing"]},
+  {"word":"lose","forms":["loses","lost","losing"],"related":[{"word":"loss","forms":["losses"],"confirmed":true}]},
+  {"word":"find","forms":["finds","found","finding"]},
+  {"word":"stay","forms":["stays","stayed","staying"]},
+  {"word":"leave","forms":["leaves","left","leaving"]},
+  {"word":"break","forms":["breaks","broke","broken","breaking"]},
+  {"word":"hold","forms":["holds","held","holding"]},
+  {"word":"care","forms":["cares","cared","caring"],"related":[{"word":"careful","confirmed":true},{"word":"careless","confirmed":true}]},
+  {"word":"write","forms":["writes","wrote","written","writing"],"related":[{"word":"writer","forms":["writers"],"confirmed":true}]},
+  {"word":"learn","forms":["learns","learned","learnt","learning"]},
+  {"word":"hope","forms":["hopes","hoped","hoping"],"related":[{"word":"hopeful","confirmed":true},{"word":"hopeless","confirmed":true}]},
+  {"word":"smile","forms":["smiles","smiled","smiling"]},
+  {"word":"imagine","forms":["imagines","imagined","imagining"],"related":[{"word":"imagination","confirmed":true}]},
+  {"word":"grow","forms":["grows","grew","grown","growing"],"related":[{"word":"growth","confirmed":true}]}
+]
